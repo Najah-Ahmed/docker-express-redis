@@ -1,0 +1,20 @@
+{
+    "name": "docker-express-redis",
+    "version": "1.0.0",
+    "description": "docker express redis for docker compose",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "docker-compose",
+        "express",
+        "redis"
+    ],
+    "author": "NJh",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "redis": "^3.0.2"
+    }
+}
